@@ -1,12 +1,14 @@
-img {
+.logo{
  width: 12%;
  height: 12%; 
  size: 20px;
  margin-left: 10px;
 }
-body{
-background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+img{
+  margin: 10px;
 }
+body{
+background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);}
 .navbar{
   width: 100%;
   align-content: top;
@@ -21,8 +23,15 @@ h1{
   font-weight: 700;
   font-style: normal;
   font-size: 8.7rem;
-  color: black;
-  
+  color: black; 
+}
+h2{
+  color: #ffffff;
+  margin-right: 10px;
+  margin: 0 10px;
+}
+p{
+  color: #ffffff;
 }
 .driver-section{
   width: 100%;
@@ -30,16 +39,68 @@ h1{
   align-items: center;
   align-content: center;
   text-align: center;
+  
+  
 }
 
-.mclaren{
+
+#mclaren{
   display: flex;
   background-color: chocolate;
 }
-.ferrari{
+#ferrari{
   display: flex;
   background-color: #880808;
 }
+#mercedes{
+  display: flex;
+  background-color: #00A19C;
+}
+#redbull{
+  display: flex;
+  background-color: #1E5BC6;
+}
+#williams{
+  display: flex;
+  background-color: #37BEDD;
+}
+#aston{
+  display: flex;
+  background-color:  #358C75;
+}
+#bulls{
+  display: flex;
+  background-color: #5E8FAA;;
+}
+#kick{
+  display: flex;
+  background-color: #132525;
+}
+#haas{
+  display: flex;
+  background-color:  #B6BABD;
+}
+#alpine{
+  display: flex;
+  background-color: #2293D1;
+}
 .driver-img{
- gap: 20px; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.card{
+  border-radius: 15px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  max-width: 1500px;
+  object-fit: cover;
+  aspect-ratio: 4/1;
+  padding: 0 10px;
+  overflow: hidden;
+  
 }
