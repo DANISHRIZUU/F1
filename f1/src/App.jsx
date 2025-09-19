@@ -4,12 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
+import News from './components/News'
+import Teams from './components/Teams'
 
 function App() {
   return(
     <>
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/news' element={<News/>}></Route>
+      <Route path='/teams' element={<Teams/>}></Route>
     </Routes>   
     </>
   )
