@@ -1,11 +1,16 @@
 import '../App.css' 
-
+import {Link} from 'react-router-dom';
 export default function Home() {
 
 return(
     <>
     <div className='navbar'>
+        <Link to={'/'}>
         <img className='logo' src='/src/assets/F1-Logo.svg'></img>
+        </Link>
+        <Link to={'/teams'}>
+        <button className='teams'>Teams</button>
+        </Link>
     </div>
     <div className='container'>
         <h1>F1 Drivers 2025</h1>

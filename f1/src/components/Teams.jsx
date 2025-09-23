@@ -1,10 +1,12 @@
 import '../App.css'
-
+import { Link } from 'react-router-dom'
 export default function Teams() {
     return(
         <>
         <div className='navbar'>
+            <Link to={'/'}>
             <img className='logo' src='/src/assets/F1-Logo.svg'></img>
+            </Link>
         </div>
         <div className='container'>
             <h1>F1 Teams 2025</h1>
