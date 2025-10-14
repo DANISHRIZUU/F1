@@ -11,6 +11,18 @@ return(
         <Link to={'/teams'}>
         <button className='teams'>Teams</button>
         </Link>
+        <Link to={'/store'}>
+        <button className='teams'>Store</button>
+        </Link>
+        <Link to={'/news'}>
+        <button className='teams'>News</button>
+        </Link>
+        <Link to={'/register'}>
+        <button className='teams'>Register</button>
+        </Link>
+        <Link to={'/login'}>
+        <button className='teams'>Login</button>
+        </Link>
     </div>
     <div className='container'>
         <h1>F1 Drivers 2025</h1>

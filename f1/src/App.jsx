@@ -7,6 +7,8 @@ import Home from './components/Home'
 import News from './components/News'
 import Teams from './components/Teams'
 import Store from './components/Store'
+import Register from './components/Register'
+import Login from './components/Login'
 
 function App() {
   return(
@@ -16,6 +18,8 @@ function App() {
       <Route path='/news' element={<News/>}></Route>
       <Route path='/teams' element={<Teams/>}></Route>
       <Route path='/store' element={<Store/>}></Route>
+      <Route path='/register' element={<Register/>}/>
+      <Route path='/login' element={<Login/>}/>
     </Routes>   
     </>
   )
